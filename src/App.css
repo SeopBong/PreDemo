@@ -30,7 +30,10 @@
   display: flex;
   justify-content: center;
 }
-
+.overlay-4-skills{
+  display: flex;
+  justify-content: center;
+}
 /**************************************************************OverLay Part*/
 
 .player-wrapper {
