@@ -1,0 +1,17 @@
+.fiveAddCard {
+  margin-top: 10px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.text-card1 {
+    height: 30vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}

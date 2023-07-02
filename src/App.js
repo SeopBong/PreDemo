@@ -10,6 +10,7 @@ import ReactPlayer from 'react-player'
 import SecondPart from './ContainerPart/components/SecondPart';
 import ThirdPart from './ContainerPart/components/ThirdPart';
 import FivePart from './ContainerPart/components/FivePart';
+import FiveAdd from './ContainerPart/components/FiveAdd';
 
 function App(props) {
   const aboutWod_0 = "비전검사기로 어떤 것을 할 수 있나요?";
@@ -53,6 +54,7 @@ function App(props) {
           </Nav>
         </Container>
       </Navbar>
+      
       <div className='onerlay'>
         <div className='player-wrapper'>
       <ReactPlayer 
@@ -71,6 +73,8 @@ function App(props) {
     <h3>황홀한 <span style={{color:'red'}}>퀄리티</span>를 느껴보세요!</h3>
     </div>
       </div>
+
+
       <div className='onerlay-2' style={{ whiteSpace: 'pre-line' }}>
       <h2>{aboutWod_0}</h2>
       <p>{aboutWod_1}</p> 
@@ -86,11 +90,12 @@ function App(props) {
       <div className='overlay-4-skills'>
         <FivePart text='아이콘1' />
         <FivePart text='아이콘2' />
-        
       </div>
+      <FiveAdd />
+
       </div>
       <div>
-
+        
       </div>
       
     </div>
